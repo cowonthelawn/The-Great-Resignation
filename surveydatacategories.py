@@ -1,0 +1,55 @@
+industry = {'000000': 'Total Non-Farm',
+            '100000': 'Total Private',
+            '110099': 'Mining and Logging',
+            '230000': 'Construction',
+            '300000': 'Manufacturing',
+            '320000': 'Durable Goods Manufacturing',
+            '340000': 'Non-durable Goods Manufacturing',
+            '400000': 'Trade, Transportation, and Utilities',
+            '420000': 'Wholesale Trade',
+            '440000': 'Retail Trade',
+            '480099': 'Transportation,\nWarehousing,\nand Utilities',
+            '510000': 'Information',
+            '510099': 'Financial Activities',
+            '520000': 'Finance and Insurance',
+            '530000': 'Real Estate',
+            '540099': 'Professional and\nBusiness Services',
+            '600000': 'Education and Health Services',
+            '610000': 'Educational Services',
+            '620000': 'Health Care and\nSocial Assistance',
+            '700000': 'Leisure and Hospitality',
+            '710000': 'Entertainment,\nRecreation,\nand Arts',
+            '720000': 'Food Services and\nAccommodation',
+            '810000': 'Other Services',
+            '900000': 'Government',
+            '910000': 'Federal',
+            '920000': 'State and Local',
+            '923000': 'State and Local Government Education',
+            '929000': 'State and Local Government, Excluding Education'}
+
+
+state = {'00': 'Total US',
+         'MW': 'Midwest Region',
+         'NE': 'Northwest Region',
+         'SO': 'South Region',
+         'WE': 'West Region'}
+
+num_employees = {'00': 'All',
+                 '01': '1 to 9',
+                 '02': '10 to 49',
+                 '03': '50 to 249',
+                 '04': '250 to 999',
+                 '05': '1000 to 4,999',
+                 '06': '5000+'}
+
+activity_type = {'HI': 'Hires',
+                 'JO': 'Job Openings',
+                 'LD': 'Layoffs and Discharges',
+                 'OS': 'Other Separations',
+                 'QU': 'Quits',
+                 'TS': 'Total Separations',
+                 'UN': 'Unemployment Rate',
+                 'UO': 'Unemployed Persons per Job Opening'}
+
+data_type = {'L': 'Level',
+             'R': 'Rate'}
